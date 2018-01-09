@@ -6,7 +6,7 @@ import {
   addBlock,
   isValidChain,
   isValidNewBlock
-} from './index'
+} from '../src/blockchain'
 import range from 'lodash.range'
 
 const blockchain = [getGenesisBlock()]

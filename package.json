@@ -5,10 +5,17 @@
   "author": "mizchi <miz404@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "blakejs": "^1.1.0",
     "crypto-js": "^3.1.9-1",
-    "lodash.range": "^3.2.0"
+    "immer": "^0.3.0",
+    "keypair": "^1.0.1",
+    "lodash.range": "^3.2.0",
+    "lodash.sortby": "^4.7.0",
+    "ursa": "^0.9.4",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.59.0"

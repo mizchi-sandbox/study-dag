@@ -1,3 +1,4 @@
 {
-  "presets": [["env", {"targets": {"node": 8}}], "flow"]
+  "plugins": ["transform-object-rest-spread"],
+  "presets": [["env", { "targets": { "node": 8 } }], "flow"]
 }
